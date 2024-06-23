@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/css.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbg fixed-top nav navbar-dark">
+      <div class="container">
+        <div>
+          <img src="assets/logo.png" alt="logo of weather" />
+        </div>
+        <a class="navbar-brand p-2" href="#">Weather</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-3">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#news">News</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#lc">Live Cameras</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#photo">Photos</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="home mt-5 pt-5">
+      <div class="container ">
+        <div class="d-flex justify-content-center align-items-center w-50  mx-auto">
+            <input id="input" type="text" class="form-control rounded-5 w-75 " placeholder="Find Your Location...">
+            <button onclick="search()" class="btn  rounded-5 w-25" id="search">Search</button>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center "id="here">
+          
+        </div>
+        <div id="weather-cards"></div>
+      </div>
+    </section>
+    <section class="footer p-5">
+      <div class="container">
+        <div class="d-flex justify-content-center align-items-center w-50 mx-auto  ">
+          <input
+            type="text"
+            class="form-control rounded-5 w-50"
+            placeholder="Enter your Email to subscribe..."
+        
+          />
+          <button type="submit" class="btn  rounded-5 w-25 " >Subscribe</button>
+        </div>
+        <div class="pt-5 p text-center">
+            <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+      </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+/* navbar */
+.navbg{
+    background-color:#1E202B !important ;
+}
+/* ----------------------------------------------------------------------- */
+
+/* home */
+.home{
+    background-image: url(../assets/banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.home input{
+    background-color: #1E202B !important;
+    border-color: #1E202B !important;
+    padding: 15px !important;
+    position: absolute;
+    color:white !important
+}
+.home button{
+    position: relative !important;
+    top: 0% !important;
+    right: -400px !important;
+    bottom: 0 !important;
+    background-color:  #009AD8 !important;
+    color:aliceblue !important
+    
+}
+.home input::placeholder{
+    color:#84858B  !important
+}
+.card{
+    --bs-card-border-color: none !important
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* footer */
+.footer{
+    background-color: #262936;
+}
+.footer input{
+    background-color: #1E202B !important;
+    border-color: #1E202B !important;
+    padding: 15px !important;
+    position: absolute;
+    color:white !important
+}
+.footer button{
+    position: relative !important;
+    top: 0% !important;
+    right: -250px !important;
+    bottom: 0 !important;
+    background-color:  #009AD8 !important;
+    color:aliceblue !important
+    
+}
+.footer input::placeholder{
+    color:#84858B  !important
+}
+.footer .p{
+    color:#84858B
+}
