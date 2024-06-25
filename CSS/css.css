@@ -57,6 +57,60 @@
     color:aliceblue !important
     
 }
+
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+  .navbar-expand-lg .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .home {
+    padding-top: 80px;
+  }
+
+  .footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .home {
+    padding-top: 60px;
+  }
+
+  .footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .footer input {
+    width: 100%;
+  }
+}
+
+
+
 .footer input::placeholder{
     color:#84858B  !important
 }
